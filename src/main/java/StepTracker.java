@@ -4,13 +4,14 @@ public class StepTracker
  private int numSteps;
  private int stepMin;
  private ArrayList <Int> Days;
- public StepTracker(num){
+ public StepTracker(int num){
  numSteps=0;
  stepMin= num;
  Days= new ArrayList<>();
  }
- public void addDailySteps(int z)
+ public void addDailySteps(int z){
  Days.add(z);
+ }
  public int activeDays(){
   int count=0;
    for(int i=0; i<Days.size();i++)
