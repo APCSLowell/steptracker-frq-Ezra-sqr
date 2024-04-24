@@ -3,11 +3,11 @@ public class StepTracker
 {
  private int numSteps;
  private int stepMin;
- private ArrayList <int> Days;
+ private ArrayList <Integer> Days;
  public StepTracker(int num){
  numSteps=0;
  stepMin= num;
- Days= new ArrayList<>();
+ Days= new ArrayList<Integer>();
  }
  public void addDailySteps(int z){
  Days.add(z);
